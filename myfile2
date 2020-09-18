@@ -12,3 +12,5 @@ echo "sum of 2 numbers is: $val"
 val=`expr $val1 \* $val2`
 echo "multiplication of 2 numbers is: $val"
 
+val=`expr $val1 - $val2`
+echo "substraction of 2nd from 1st gives you: $val"
