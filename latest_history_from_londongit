@@ -1,0 +1,44 @@
+    1  nmtui
+    2  hostname -I
+    3  shutdown now
+    4  ls
+    5  hostnamectl set-hostname git_machine2
+    6  logout
+    7  ls
+    8  cd londongit/
+    9  ls
+   10  clear
+   11  git log -1
+   12  ls 
+   13  clear
+   14  git branch
+   15  git branch london
+   16  git branch
+   17  git checkout london
+   18  git branch
+   19  git status
+   20  touch a.txt b.doc c.png d.class e.jpg
+   21  ls
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "this is the commit form london branch which is just now created"
+   26  git push origin master
+   27  git push origin london
+   28  git status
+   29  git pull origin master
+   30  ls
+   31  git branch
+   32  git checkout master
+   33  git branch
+   34  git merge london
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "Merging of london with master branch --git merge london-- "
+   39  git push origin master
+   40  git pull origin master
+   41  git status
+   42  git push origin master
+   43  git status
+   44  history > latest_history_from_londongit
