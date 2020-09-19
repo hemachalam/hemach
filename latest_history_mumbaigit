@@ -1,0 +1,309 @@
+    1  nmtui
+    2  hostname -I
+    3  shutdown now
+    4  hostnamectl set-hostname Git_machine
+    5  logout
+    6  ls -l
+    7  yum info git-all
+    8  yum info git-core
+    9  yum info git
+   10  yum -y install git-all
+   11  rpm -qi git
+   12  git --version
+   13  git config --list
+   14  git config --global user.name hemach
+   15  git config --global user.email hemachalamreddy@gmail.con
+   16  git config --global user.email hemachalamreddy@gmail.com
+   17  git config --list
+   18  git init gitclass
+   19  cd gitclass
+   20  ls -la
+   21  git status
+   22  mkdir test
+   23  ls -la
+   24  cd test
+   25  ls -la
+   26  cd ..
+   27  rm -rf test
+   28  cd ..
+   29  mkdir test
+   30  cd test
+   31  ls -la
+   32  mkdir .git
+   33  ls -la
+   34  cd ..
+   35  ls -la
+   36  git init hemach
+   37  cd hemach
+   38  ls -la
+   39  cd ..
+   40  git -m
+   41  cd hemach
+   42  git -m
+   43  -m
+   44  git ls -files
+   45  git ls-files
+   46  git status
+   47  git show
+   48  cd ..
+   49  git show
+   50  git log
+   51  cd test 
+   52  git log
+   53  cd ..
+   54  cd gitclass
+   55  git log
+   56  cd ..
+   57  rm -rf test
+   58  ls -la
+   59  git log --all
+   60  cd hemach
+   61  cat > fruits.txt
+   62  git ls-file
+   63  git ls-files
+   64  ls -l
+   65  git commit -m "fruits.txt"
+   66  git ls-files
+   67  git show
+   68  git status
+   69  git add fruits.txt
+   70  git ls-files
+   71  git commit -m "multiple commit"
+   72  git status
+   73  git log
+   74  git show acaeb98
+   75  git log --oneline
+   76  git revert acaeb98
+   77  git log --oneline
+   78  git show 1ec2605
+   79  git checkout -- fruits.txt
+   80  ls -l
+   81  git ls-files
+   82  git show
+   83  cd ..
+   84  logout
+   85  history
+   86  git init sowya
+   87  cd sowya
+   88  cat > india.txt
+   89  ls -l
+   90  git add .
+   91  git ls-files
+   92  git commit -m "Metropolitan cities of India"
+   93  git log
+   94  git log --oneline
+   95  git show fe1defb
+   96  git log --all
+   97  git revert fe1defb
+   98  git log
+   99  git log --oneline
+  100  history
+  101  logout
+  102  hostname -I
+  103  nmtui
+  104  hostname -I
+  105  shutdown nnow
+  106  shutdown now
+  107  ls -l
+  108  cd sowya
+  109  cat > veg.txt
+  110  ls -l
+  111  git add .
+  112  git ls-files
+  113  git status
+  114  git reset HEAD veg.txt 
+  115  ls -l
+  116  git status
+  117  git add .
+  118  git status
+  119  git commit -m "Vegetables list"
+  120  git status
+  121  git ls-files
+  122  git log
+  123  git log --oneline
+  124  git show 8f881aa
+  125  git config --list
+  126  git remote -v
+  127  git config --list
+  128  git pull
+  129  sowya_remoterepo
+  130  git_clone
+  131  git clone https://github.com/hemachalam/master
+  132  git pull
+  133  git status
+  134  git push
+  135  git remote add hemach https://github.com/hemachalam/master
+  136  git status
+  137  git push hemach
+  138  git push
+  139  git push hemach
+  140  git pull hemach
+  141  git push hemach
+  142  git clone https://github.com/hemachalam/master.git
+  143  git clone "https://github.com/hemachalam/master.git"
+  144  cd ..
+  145  git status
+  146  cd sowya
+  147  git status
+  148  git add .
+  149  git commit -m "hemach file"
+  150  git status
+  151  ls -l
+  152  cd master
+  153  ls -l
+  154  cat 1.txt 
+  155  cat myfile 
+  156  git push hemach
+  157  git config --global push.default simple
+  158  git push hemach
+  159  git push hemachalam
+  160  cd ..
+  161  git push master
+  162  git pull
+  163  git pull master
+  164  clear
+  165  cd ..
+  166  ls -l
+  167  git remote -v
+  168  cd sowya/
+  169  git remote -v
+  170  cd ..
+  171  git init test
+  172  cd test
+  173  ls -la
+  174  git remote -v
+  175  git status
+  176  git branch
+  177  ls -l
+  178  git show
+  179  git branch -d delhi
+  180  yum repolist
+  181  git config --global color.ui true
+  182  git config --global color.status auto
+  183  git config --global color.branch auto
+  184  ls -l
+  185  git status
+  186  cd ..
+  187  cd sowya
+  188  git status
+  189  git branch
+  190  git branch hyd
+  191  git branch
+  192  git checkout hyd
+  193  git branch
+  194  git status
+  195  cat > fruits.txt
+  196  git status
+  197  git branch
+  198  git merge hyd
+  199  git checkout master
+  200  git branch
+  201  git merge hyd
+  202  git ls-files
+  203  git add .
+  204  git status
+  205  git commit -m "fruitwala"
+  206  git status
+  207  git ls-files
+  208  git log
+  209  git show
+  210  git log --oneline
+  211  git show 6c7c5dc
+  212  git show f0afee5
+  213  git show f480ee4
+  214  history
+  215  nmtui
+  216  hostname -I
+  217  shutdown now
+  218  git generate repo hemach
+  219  git --help
+  220  git repolist
+  221  rev-list
+  222  rev- list
+  223  clear
+  224  git --help
+  225  git bisect
+  226  git branch
+  227  ls -l
+  228  cd sowya
+  229  git branch
+  230  git branch delhi
+  231  git branch
+  232  git checkout delhi
+  233  git branch
+  234  cat > rivers
+  235  ls -l
+  236  git status
+  237  git checkout master/
+  238  git checkout master
+  239  git branch
+  240  git merge
+  241  git merge delhi
+  242  git add .
+  243  git status
+  244  git commit -m "famous rivers of india"
+  245  git status
+  246  git ls-files
+  247  git log
+  248  git log --oneline
+  249  git show
+  250  git pull hemach
+  251  nmtui
+  252  hostname -I
+  253  git pull hemach
+  254  git branch
+  255  git pull hemach master
+  256  git statu
+  257  git stage
+  258  git status
+  259  git ls-files
+  260  cat rivers.tct
+  261  cat rivers.txt
+  262  git push hemach
+  263  git push --set-upstream hemach master
+  264  git pull hemach master
+  265  history
+  266  shutdown now
+  267  nmtui
+  268  hostname -I
+  269  shutdown now
+  270  ls
+  271  cd sowya
+  272  ls
+  273  cat fruits.txt 
+  274  clear
+  275  history
+  276  ls
+  277  cd mumbaigit/
+  278  ls
+  279  clear
+  280  gti status
+  281  git status
+  282  git log -1
+  283  ls
+  284  history
+  285  history > history.jpg
+  286  ls
+  287  history > histry.xls
+  288  ls
+  289  cat histry.xls 
+  290  clear
+  291  ls
+  292  git status
+  293  git pull origin master
+  294  git push origin master
+  295  git add .
+  296  git status
+  297  git commit -m "these 2 files have been sent to windows machine using winscp software"
+  298  git push origin master
+  299  git status
+  300  git pull origin london
+  301  ls
+  302  git branch
+  303  git status
+  304  git pull origin master
+  305  git status
+  306  git push origin master
+  307  git status
+  308  git pull origin master
+  309  history > latest_history_mumbaigit
