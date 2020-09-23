@@ -1,0 +1,5 @@
+git clone command was run from sowya local repo 
+to bring hero remoter repo into sowya local repo
+the command which helped it perform ths though is
+git clone <url of github repo of hero> or <https://github.com/hemachalam/hero.git>
+So with this experiment we know that we can have repo within a repo (local)
